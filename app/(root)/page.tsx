@@ -92,3 +92,4 @@ async function Home() {
 }
 
 export default Home;
+//intervie successfully generated to home page
