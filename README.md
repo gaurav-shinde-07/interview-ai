@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IntervueAI - AI-Powered Interview Practice Platform
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-15.3.1-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-11.x-orange)](https://firebase.google.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-First, run the development server:
+IntervueAI is a cutting-edge platform that helps users practice job interviews through AI-powered conversations and receive detailed feedback on their performance.
 
+## 🚀 Features
+
+- **AI-Powered Interviews**: Real-time voice conversations with an AI interviewer
+- **Dynamic Question Generation**: Custom interview questions based on role and tech stack
+- **Instant Feedback**: Detailed performance analysis and scoring
+- **Multiple Interview Types**: Technical, Behavioral, and Mixed interviews
+- **Progress Tracking**: Track interview history and improvements
+- **Tech Stack Recognition**: Support for various programming languages and frameworks
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 15.3.1, React 19, TypeScript
+- **Styling**: Tailwind CSS, CSS Variables
+- **Authentication**: Firebase Auth
+- **Database**: Firebase Firestore
+- **AI Services**: 
+  - VAPI AI for voice interactions
+  - Google AI for question generation
+  - OpenAI GPT-4 for interview assessments
+
+## 📋 Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn
+- Firebase account
+- VAPI API key
+- Google AI API credentials
+
+## 🔧 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/intervue-ai.git
+cd intervue-ai
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Set up environment variables:
+```env
+NEXT_PUBLIC_VAPI_WEB_TOKEN=your_vapi_token
+NEXT_PUBLIC_VAPI_WORKFLOW_ID=your_workflow_id
+FIREBASE_PROJECT_ID=your_project_id
+FIREBASE_CLIENT_EMAIL=your_client_email
+FIREBASE_PRIVATE_KEY=your_private_key
+```
+
+4. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The platform uses Firebase Authentication with email/password sign-in. Users must be authenticated to:
+- Take practice interviews
+- View interview history
+- Get interview feedback
 
-## Learn More
+## 🎙️ Interview Process
 
-To learn more about Next.js, take a look at the following resources:
+1. **Interview Generation**:
+   - Users select role, level, and tech stack
+   - AI generates relevant interview questions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Interview Session**:
+   - Real-time voice conversation with AI interviewer
+   - Natural language processing for response analysis
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Feedback Generation**:
+   - Detailed scoring in multiple categories
+   - Strengths and areas for improvement
+   - Overall performance assessment
 
-## Deploy on Vercel
+## 🎯 Scoring Categories
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Communication Skills
+- Technical Knowledge
+- Problem-Solving
+- Cultural & Role Fit
+- Confidence & Clarity
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- Gaurav Shinde - Initial work - [GitHub Profile](https://github.com/gaurav-shinde-07)
+
+## 🙏 Acknowledgments
+
+- [VAPI AI](https://vapi.ai) for voice interaction capabilities
+- [Google AI](https://ai.google.dev/) for question generation
+- [Firebase](https://firebase.google.com) for backend services
+- [Vercel](https://vercel.com) for hosting and deployment
+
+## 📬 Contact
+
+For questions and support, please email your-gauravmshinde017@gmail.com or create an issue in the GitHub repository.
