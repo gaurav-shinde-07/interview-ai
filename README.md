@@ -39,7 +39,7 @@ IntervueAI is a cutting-edge platform that helps users practice job interviews t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/intervue-ai.git
+git clone https://github.com/gaurav-shinde-07/intervue-ai.git
 cd intervue-ai
 ```
 
@@ -118,4 +118,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-For questions and support, please email your-gauravmshinde017@gmail.com or create an issue in the GitHub repository.
+For questions and support, please email gauravmshinde017@gmail.com or create an issue in the GitHub repository.
